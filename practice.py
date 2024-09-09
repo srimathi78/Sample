@@ -44,6 +44,6 @@ for face in faces:
     cv2.putText(img, expression, (face.left(), face.top() - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
 # Display the annotated image
-cv2.imshow('Expression Detection', img)
+cv2.imshow('Face emotion Detection', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
